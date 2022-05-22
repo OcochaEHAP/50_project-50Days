@@ -1,6 +1,6 @@
 body {
   height: 100vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   overflow: hidden;
 }
 
@@ -24,8 +24,8 @@ body {
 .panel {
   height: 85vh;
   -webkit-box-flex: 0.5;
-      -ms-flex: 0.5;
-          flex: 0.5;
+  -ms-flex: 0.5;
+  flex: 0.5;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -36,7 +36,8 @@ body {
   -webkit-transition: -webkit-box-flex 0.6s ease-out;
   transition: -webkit-box-flex 0.6s ease-out;
   transition: flex 0.6s ease-out;
-  transition: flex 0.6s ease-out, -webkit-box-flex 0.6s ease-out, -ms-flex 0.6s ease-out;
+  transition: flex 0.6s ease-out, -webkit-box-flex 0.6s ease-out,
+    -ms-flex 0.6s ease-out;
   cursor: pointer;
 }
 
